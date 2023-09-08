@@ -344,6 +344,14 @@
     <Content Include="Templates\login-form-20\js\main.js" />
     <Content Include="Templates\login-form-20\js\popper.js" />
     <Content Include="Templates\login-form-20\main.html" />
+    <Content Include="Templates\pictures\Admin1.PNG" />
+    <Content Include="Templates\pictures\Admin2.PNG" />
+    <Content Include="Templates\pictures\Admin3.PNG" />
+    <Content Include="Templates\pictures\Login.PNG" />
+    <Content Include="Templates\pictures\Register.PNG" />
+    <Content Include="Templates\pictures\UI1.PNG" />
+    <Content Include="Templates\pictures\UI2.PNG" />
+    <Content Include="Templates\pictures\UI3.PNG" />
     <Content Include="Templates\sidebar-01\css\bootstrap.min.css" />
     <Content Include="Templates\sidebar-01\css\bootstrap\mixins\_border-radius.css" />
     <Content Include="Templates\sidebar-01\css\bootstrap\mixins\_screen-reader.css" />

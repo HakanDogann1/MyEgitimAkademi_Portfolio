@@ -12,4 +12,4 @@ MSSQL
 
 # Pictures
 
-<img src="C:\Users\Admin\Desktop\MYAkademi\1)Portfolio\Admin1.PNG" alt="alt text" width="320" height="180">
+<img src="/Templates/pictures/Admin1.PNG" alt="alt text" width="320" height="180">
