@@ -1,0 +1,23 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Testimonial
+@{
+    ViewBag.Title = "AddTestimonial";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h2>Yeni Referans Ekleme Sayfası</h2>
+<form method="post">
+    <label>Referans Adı</label>
+    <input type="text" name="TestimonialNameSurname" class="form-control" />
+    <br />
+    <label>Referans Unvan</label>
+    <input type="text" name="TestimonialUnvan" class="form-control" />
+    <br />
+    <label>Referans Görseli</label>
+    <input type="text" name="TestimonialImage" class="form-control" />
+    <br />
+    <label>Referans Yorumu</label>
+    <textarea class="form-control" name="TestimonialComment" rows="5"></textarea>
+    <br />
+    <button class="btn btn-outline-success">Kaydet</button>
+</form>
+

@@ -1,0 +1,63 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Partner>
+<section class="w3l-homeblock3" id="clients">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span class="text">Firmalar</span>
+                    <h3 class="title-big">
+                        Çalışmalar
+                    </h3>
+                    <p class="mt-4">
+                        Son on yılda bazı kesimlerden insanlarla çalışma ve onlar için çalışma şansına sahip oldum.
+                        muhteşem organizasyonlar.
+                    </p>
+                    <div class="reward-list mt-5">
+                        <div class="reward-item">
+                            <div class="reward-item-photo">
+                                @ViewBag.ProjectCount
+                            </div>
+                            <div class="reward-item-detail">
+                                <span class="reward-item-title">Proje Sayısı</span>
+                                <p class="reward-item-descr">
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reward-item">
+                            <div class="reward-item-photo">
+                                @ViewBag.Testimonial
+                            </div>
+                            <div class="reward-item-detail">
+                                <span class="reward-item-title">Referans Sayısı</span>
+                                <p class="reward-item-descr"></p>
+                            </div>
+                        </div>
+                        <div class="reward-item">
+                            <div class="reward-item-photo">
+                                @ViewBag.PartnerCount
+                            </div>
+                            <div class="reward-item-detail">
+                                <span class="reward-item-title">Firma Sayısı</span>
+                                <p class="reward-item-descr">
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self text-center mt-lg-0 mt-md-5 mt-4">
+                    <div class="images">
+                        @foreach (var item in Model)
+                        {
+                            <img src="@item.PartnerImage" class="img-fluid" alt="" />
+
+                        }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

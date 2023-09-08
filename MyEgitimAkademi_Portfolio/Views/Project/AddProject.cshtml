@@ -1,0 +1,29 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Project
+@{
+    ViewBag.Title = "AddProject";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h2>Proje Ekleme Sayfası</h2>
+@using (Html.BeginForm()) { 
+    <label>Proje Başlığı</label>
+    <input type="text" name="ProjectTitle" class="form-control" />
+    <br />
+    <label>Proje İçeriği</label>
+    <input type="text" name="ProjectDescription" class="form-control" />
+    <br />
+    <label>Kategori</label>
+    @Html.DropDownListFor(m => m.ProjectCategory, (List<SelectListItem>)ViewBag.Category, "Lütfen Seçiniz", new { @class = "dropdown form-control" })
+    <br />
+    <label>Bitirme Süresi</label>
+    <input type="text" name="ComplateDay" class="form-control" />
+    <br />
+    <label>Fiyat</label>
+    <input type="text" name="Price" class="form-control" />
+    <br />
+    <button class="btn btn-outline-success">Kaydet</button>
+}
+
+
+
+

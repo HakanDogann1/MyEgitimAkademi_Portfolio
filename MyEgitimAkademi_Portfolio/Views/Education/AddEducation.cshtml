@@ -1,0 +1,17 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Education
+@{
+    ViewBag.Title = "AddEducation";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h2>Eğitim Ekleme Sayfası</h2>
+<form method="post">
+    <label>Eğitim</label>
+    <input type="text" name="EducationName" class="form-control"/>
+    <br />
+    <label>Eğitim Süresi</label>
+    <input type="text" name="ComplatedMonth" class="form-control"/>
+    <br />
+    <button class="btn btn-outline-success">Ekle</button>
+</form>
+

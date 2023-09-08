@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+
+@Html.Action("PartialHead", "Default")
+<body>
+    <!--header-->
+    @Html.Action("PartialNavbar", "Default")
+    <!--/header-->
+    <!-- Domain Modal -->
+    @Html.Action("PartialQuickContact", "Default")
+    <!-- //Domain modal -->
+    <!-- home page contact section -->
+    @Html.Action("PartialContact","Default")
+    <!-- //home page contact section -->
+    @Html.Action("PartialScript")
+</body>
+</html>

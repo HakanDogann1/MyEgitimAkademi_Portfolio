@@ -1,0 +1,30 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Testimonial>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h2>Referans Sayfası</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Ad Soyad</th>
+        <th>Ünvan</th>
+        <th>Resim</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+     @foreach (var item in Model)
+     {
+         <tr>
+             <th>@item.TestimonialId</th>
+             <td>@item.TestimonialNameSurname</td>
+             <td>@item.TestimonialUnvan</td>
+             <td>@item.TestimonialImage</td>
+             <td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-outline-danger">Sil</a></td>
+             <td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialId" class="btn btn-outline-warning">Güncelle</a></td>
+         </tr>
+     }
+</table>
+<br />
+<a href="/Testimonial/AddTestimonial/" class="btn btn-outline-success">Ekle</a>
