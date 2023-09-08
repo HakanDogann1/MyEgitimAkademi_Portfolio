@@ -11,5 +11,3 @@ Entity Framework
 MSSQL
 
 # Pictures
-
-<img src="~/Templates/pictures/Admin1.jpg" width="320" height="180">
