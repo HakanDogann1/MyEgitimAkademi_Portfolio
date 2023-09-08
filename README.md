@@ -22,7 +22,7 @@ MSSQL
 ![Register](https://github.com/HakanDogann1/MyEgitimAkademi_Portfolio/assets/115923387/1c8c530c-5d0b-4519-abfe-b529a43a1d09)
 
 # Using
-Projeye giriş yapmak için "/Login/Index" sayfasına gidilir. 
+Projeye giriş yapmak için "/Login/Index" sayfasına gidilir. <br>
 Eğer bir hesap yok ise "/Register/Index" sayfasından kayıt oluşturulur.
 Login işlemi yapıldığında Admin paneline yönlendirilip sayfa yönetim işlemleri yapılabilir. 
 Admin paneli üzerinden UI kısmına "Siteye Git" ile erişilebilir. 
